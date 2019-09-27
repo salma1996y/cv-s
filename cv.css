@@ -1,0 +1,337 @@
+*{
+/*      margin: 5px;  */
+/*     padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    background: #FAFAFA;
+/*   height: 2000px; */
+/*     width: 1000px; */
+}
+header{
+  color:#FAFAFA;
+     background:#424242;
+     box-shadow:20px 20px 50px grey;
+
+
+   height: 300px;
+    width: 1000px;
+    margin: auto;
+/*      border-radius: 20px; */
+
+}
+.head {
+  position: relative;
+   padding: 10px 30px;
+/*   text-align: center; */
+/*   margin: auto; */
+    color: #BDBDBD ;
+/*   background:#424742; */
+    width: 320px;
+  text-align: center;
+/*   text-align:2%; */
+/*      border-radius: 200px; */
+
+}
+
+img {
+  color: #BDBDBD ;
+  background: #BDBDBD;
+/*      border-radius: 50px 0px 0px 50px; */
+
+    
+}
+.link{
+ position: relative;
+  margin: 10px;
+   text-align: center
+}
+
+.email{
+  position: relative;
+  float: right;
+   border-radius: 500px;
+}
+a{text-decoration:none;
+
+}
+main{
+  background:white;
+   width: 60%;
+     height: 342px;
+    width: 700px;
+    margin: auto;
+/*      border-radius: 50px; */
+    margin: -150px auto;
+     box-shadow:20px 20px 50px grey;
+
+
+}
+.hello{
+   border-bottom: double #BDBDBD;
+  width: 200px;
+       height: 49px;
+/*     margin: 60p */
+  font-size:2rem;
+ line-height: 55px;
+
+
+}
+.id{
+    float: right;
+/* background:#424242; */
+    width: 300px;
+/*line-height: 20px;*/
+    margin: 78px 29px;
+    border:1px;
+
+}
+strong{
+  color:#689F38;
+  
+}
+.hlw{
+  background:#689F38;
+  width: 140px;
+    text-align: center;
+ border-radius: 3em 3em 1em / .5em 4em ;
+    border-bottom:  ;
+  width: 150px;
+       height: 22px;
+  padding-top:%;
+/*   line-height: 18px; */
+  color:white;
+    font-family: 'Turret Road', cursive;
+}
+button{
+  background:#689F38;
+  width: 100px;
+  height: 30px;
+  margin: 50px 9px;
+/*     border:1px; */
+  color:white;
+  border-radius: 6em 2em 3em / .1em 4em ;
+    font-family: 'Turret Road', cursive;
+        font-size: 15px;
+    box-shadow: 0px 0px 30px grey;
+  
+}
+
+.timeline{
+/*     position: relative; */
+    margin: 300px auto;
+    padding: 0px ;
+      width: 800px;
+           height: 890px;
+   box-shadow:20px 20px 50px grey;
+
+
+    border: double #424242;
+}
+ h1{
+    text-align: center;
+    position: relative;
+    top: -100px;
+    color: #424242;
+     margin: 30px auto;
+/*     font-family: 'Amiri', serif; */
+font-size: 50px;
+}
+/*الخط الي بنص*/
+.timeline::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+     width: 3px;
+    height: 105%;
+    background-color: #c5c5c5;
+  
+    
+}
+ ul{
+/*     margin: 0; */
+    padding: 0;
+    list-style: none;
+}
+ li{
+/*     line-height: normal; */
+    position: relative;
+     width: 50%;
+    padding: 25px 0px;
+   padding-top:1%;
+
+
+}
+
+ li:nth-child(odd){
+    float: right;
+/*     text-align: left; */
+/*     clear: both; */
+/*    padding-top:2%; */
+
+
+}
+
+  li:nth-child(even){
+/*     float: left; */
+/*     text-align: center; */
+    clear: both;
+    padding-top:10%;
+
+
+}
+/* المربعات الخضراء */
+.content{
+/* padding-bottom: 20px; */
+    padding: 10px 20px;
+/*     float: left; */
+/* text-align: right; */
+/*  border: 4px  #424242;*/
+ border-left: 5px solid #4CAF50 ; 
+     width: 90%;
+margin: -19px 20px;
+/*   padding-top:2%; */
+    box-shadow:20px 20px 50px grey;
+
+}
+/* النقطه الاولى والاخيره */
+li:nth-child(odd)::before{
+    content: "";
+    position: absolute;
+       top: 64px;
+    right: -27px;
+    background-color: #FAFAFA;
+    border: solid 6px #424242;
+    left: -9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+/*     box-shadow: 0 0 0 3px rgba(233,233,99,0.2); */
+}
+/* النقطه بالوسط  */
+li:nth-child(even)::before{
+    content: "";
+    position: absolute;
+  top: 97px;
+    right: -13px;
+    width: 10px;
+    height: 10px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    border: solid 6px #424242;
+/*     box-shadow: 0 0 0 3px rgba(233,233,99,0.2); */
+  
+}
+
+  h3{
+/*     margin: 0; */
+/*     padding: 0; */
+/*     font-weight: 600; */
+/*     text-align: right; */
+    font-size: 30px;
+    color: #424242;
+/*     margin-bottom: 10px; */
+/*     font-family: 'Amiri', serif; */
+}
+ p{
+/*      margin: 7px 100px; */
+   width: 320px;
+      height: auto;
+/*     padding: 9px; */
+    font-weight: 600;
+/*     text-align: right; */
+   
+}
+/* Education Courses & Certificates الرصاصيه*/
+.timeline :nth-child(odd) .time{
+/*     position: absolute; */
+/*     top: 12px; */
+/*      width: 110px; */
+      height: auto;
+/*     text-align: center; */
+    left: -115px;
+  top:39px;
+  
+/*     margin: 0; */
+  
+/*     padding: 12px ; */
+/*     background: #026536; */
+/*     color: #fff; */
+/*     border-radius: 18px; */
+/*     font-family: 'Amiri', serif; */
+}
+/* Experience الرصاصيه */
+ .time{
+    position: absolute;
+    top: 80px;
+    right: -115px;
+    width: 100px;
+      height: 50px;
+    text-align: center;
+/*     margin: 0; */
+/*     padding: 0px 11px; */
+    background: #424242;
+    color: #fff;
+   
+    border-radius: 18px;
+/*     font-family: 'Amiri', serif; */
+}
+
+
+
+h4{
+/*    width: 0px; */
+      height: 20px;
+}
+.skil{
+      margin: -250px auto;
+    padding: 40px ;
+      width: 800px;
+           height: auto;
+   box-shadow:20px 20px 50px grey;
+
+
+    border: double #424242;
+/*      margin: 50% 50%; */
+/*    width: 350px; */
+      height: 350px;
+/*      padding: 9px;  */
+/*     font-weight: 600; */
+/*     text-align: right; */
+}
+.container {
+  width: 100%;
+  background-color: #ddd;}
+.right{
+  margin: -285px 23px;
+/*   border: double #424242; */
+    width: 253px;
+           height: auto;
+      float: right;
+/*   color:white; */
+}
+.html {width: 85%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #808080;}
+.js {width: 50%; background-color: #4CAF50;}
+.mo {width: 95%; background-color: #808080;}
+.ph {width: 70%; background-color: #4CAF50;}
+.en {width: 50%; background-color: #808080;}
+.left{
+  border: double #424242;
+  width: 353px;
+  border-radius: 50px;
+    box-shadow:20px 20px 50px grey;
+/*     margin: -250px auto; */
+    padding: 10px ;
+/*   padding-top:8%; */
+}
+h5{
+    font-size:2rem;
+background-color: #ddd;
+padding-top:2%;
+  margin:30px 20px;
+}
+.p{
+
+/*   background-color: #ddd; */
+}
